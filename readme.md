@@ -1,1 +1,1 @@
-git iThis is a part of my task
+This is a part of my task
