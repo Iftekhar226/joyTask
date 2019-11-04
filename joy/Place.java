@@ -1,12 +1,19 @@
 package org.task.joy;
 
 public class Place {
+	
+	//Place class with getters and setters method
+	
 	private String id;
 	private String street_no;
     private String locality;
     private String postal_code;
     private String lat;
     private String long_key;
+	
+	public Place(){}	//default constructor 
+	
+	//argument constructor
     public Place(String id,String street,String locality,String postal,String lat, String long_key)
     {
     	this.id = id;

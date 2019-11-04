@@ -1,6 +1,6 @@
 package org.task.joy;
 
-public class ResultList {
+public class ResultList { //This ResultList that store two value Cafe and Place as member variable.  
 	
 	private Cafe cafe;
 	private Place place;
@@ -19,7 +19,7 @@ public class ResultList {
 	}
 	
 	@Override 
-	public String toString(){
+	public String toString(){//overRide the toString method.
 		return "    { \n    Name = "+cafe.getName()+"\n    street_no = "+place.getStreet_no()+"\n    locality = "+place.getLocality()
 		+ "\n    postal_code = "+place.getPostal_code()+"\n    lat = "+place.getLat()+"\n    long = "+place.getLong_key()+" \n    }" ;
 	}

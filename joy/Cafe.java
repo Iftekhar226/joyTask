@@ -1,9 +1,15 @@
 package org.task.joy;
 
 public class Cafe {
+	//Cafe class with getters and setters method
+	
 	private String name;
 	 private String place_id;
-	 public Cafe(String name,String id)
+	 public Cafe()//default constructor 
+	 {
+		 
+	 }
+	 public Cafe(String name,String id)//argument constructor
 	 {
 		 this.name=name;
 		 this.place_id=id;
